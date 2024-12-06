@@ -1,3 +1,4 @@
+/* Estilo geral para ambas as páginas */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -13,13 +14,14 @@ header {
     text-align: center;
 }
 
+/* Estilo para o formulário no index.html */
 form {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
     background-color: white;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 label {
@@ -46,5 +48,39 @@ button {
 }
 
 button:hover {
+    background-color: #cc0000;
+}
+
+/* Estilos específicos para obrigado.html */
+main {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+main h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Botão de voltar na página obrigado.html */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+a:hover {
     background-color: #cc0000;
 }

@@ -13,10 +13,11 @@
     </header>
     <main>
         <form id="surveyForm" action="https://formsubmit.co/pesquisasatisfacao75@gmail.com" method="POST">
-            <input type="hidden" name="_captcha" value="true">
-            <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+            <!-- Configurações do FormSubmit -->
             <input type="hidden" name="_captcha" value="false">
-        
+            <input type="hidden" name="_next" value="https://RafhaelMoraes.github.io/Projeto_Integrador/obrigado.html">
+            
+            <!-- Campos do formulário -->
             <label for="name">Seu Nome:</label>
             <input type="text" id="name" name="name" required>
             
@@ -35,8 +36,9 @@
             <label for="comments">Comentários:</label>
             <textarea id="comments" name="comments" rows="5" required></textarea>
             
+            <!-- Botão de envio -->
             <button type="submit">Enviar Feedback</button>
         </form>
-        
+    </main>
 </body>
 </html>
